@@ -35,7 +35,7 @@ const populateList = (data) => {
   words.forEach((suggestion) => {
     results.insertAdjacentHTML('beforeend',
       `
-      <a href="https://www.uefa.com/uefaeuro-2020/teams/${teamNum[suggestion]}--${suggestion}/">
+      <a href="https://www.uefa.com/uefaeuro-2020/teams/${teamNum[suggestion]}--${suggestion}/" target="_blank">
       <li class="list-group-item">${suggestion}</li></a>
       `);
   });
